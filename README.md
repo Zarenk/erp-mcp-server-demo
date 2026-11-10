@@ -4,8 +4,8 @@
 
 > Sanitized demo of a production feature I built for a real multi-tenant ERP (Peru: PEN/USD, 18% IGV). All data here is fake, the code is rewritten from scratch.
 
-<!-- TODO: replace with a 10-second GIF or screenshot of Claude answering "what is running low on stock?" -->
-![demo placeholder](docs/demo.gif)
+<!-- Real Claude Code session against this server (seeded demo data). -->
+![Claude Code asking the demo server about low stock and overdue invoices](docs/demo.gif)
 
 TypeScript, Node 20, official `@modelcontextprotocol/sdk`, Streamable HTTP (stateless, JSON responses) plus a stdio entry point, SQLite, Zod, Vitest, fast-check. **74 tests.**
 
